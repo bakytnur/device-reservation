@@ -23,8 +23,8 @@ public class DeviceBookingController {
     }
 
     @GetMapping("/devices/booking/{device_id}")
-    public DeviceBookingResponse getDeviceBookingState(@PathVariable("device_id") int device_id) {
-        return deviceBookingService.getDeviceBookingState(device_id);
+    public DeviceBookingResponse getDeviceBookingState(@PathVariable("device_id") int deviceId) {
+        return deviceBookingService.getDeviceBookingState(deviceId);
     }
     @GetMapping("/devices/booking")
     public List<DeviceBookingResponse> getDeviceBookingStates() {

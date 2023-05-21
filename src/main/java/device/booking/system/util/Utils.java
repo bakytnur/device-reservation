@@ -12,9 +12,6 @@ import java.time.ZoneId;
 import java.util.Base64;
 
 public class Utils {
-    public static String encodeToBase64(String str) {
-        return Base64.getEncoder().encodeToString(str.getBytes());
-    }
 
     public static DeviceBookingResponse mapBookingInfoToBookingResponse(DeviceResponse deviceInfo, UserDeviceBooking bookingInfo) {
         DeviceBookingResponse deviceBookingResponse = new DeviceBookingResponse();

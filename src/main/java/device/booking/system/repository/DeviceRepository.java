@@ -1,6 +1,5 @@
 package device.booking.system.repository;
 
-import device.booking.system.entity.Brand;
 import device.booking.system.entity.Device;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
